@@ -24,7 +24,7 @@ def set_config(cfg: Optional[dict[str, Any]] = None):
         "contour_thickess": 2,
         "rgb_before_contour": True,
         "save_contours": True,
-        "save_contours_path": "simple_geo_example/svgs/",
+        "save_contours_path": "contours_out/",
         "morph_dilate_kernel": cv.getStructuringElement(cv.MORPH_ELLIPSE, (1, 1)),
         "morph_close_kernel": cv.getStructuringElement(cv.MORPH_RECT, (3, 3)),
         "morph_dilate_iters": 2,
